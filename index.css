@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(59, 59, 66);
+    text-align: center;
+    margin: 0;
+}
+.main-content{
+
+}
+.text h3{
+    grid-area: h3;
+}
+.text p{
+    grid-area: txtp;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+.page-select{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "col1 col2 col3";
+    grid-gap: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-select #collumn1{
+    grid-area: col1;
+}
+.page-select #collumn2{
+    grid-area: col2;
+}
+.page-select #collumn3{
+    grid-area: col3;
+}
