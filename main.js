@@ -15,3 +15,9 @@ function addSticky() {
     header.classList.remove("sticky");
   }
 }
+
+let heading = document.getElementById("img-text");
+
+function smoothSlide(){
+  
+}
